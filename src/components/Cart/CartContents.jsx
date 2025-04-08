@@ -29,7 +29,7 @@ const CartContents = () => {
         {cartProducts.map((product, index) => (
           <div
             key={index}
-            className="flex flex-start justify-between space-x-4 py-4 border-b"
+            className="flex flex-col sm:flex-row flex-start justify-between space-x-4 py-4 border-b"
           >
             <div>
               <img
@@ -39,23 +39,25 @@ const CartContents = () => {
               />
             </div>
             <div>
-              <h3>{product.name}</h3>
-              <p className="text-sm">
-                size: {product.size} | color: {product.color}
-              </p>
-              <div className="flex space-x-2 items-center">
-                <button className="text-xl font-medium mt-2 border text-center rounded px-2 py-1 ">
-                  -
-                </button>
-                <span className="">{product.quantity}</span>
-                <button className="text-xl font-medium mt-2 border text-center rounded px-2 py-1 ">
-                  +
-                </button>
+              <div>
+                <h3>{product.name}</h3>
+                <p className="text-sm">
+                  size: {product.size} | color: {product.color}
+                </p>
+                <div className="flex space-x-2 items-center">
+                  <button className="text-xl font-medium mt-2 border text-center rounded px-2 py-1 ">
+                    -
+                  </button>
+                  <span className="">{product.quantity}</span>
+                  <button className="text-xl font-medium mt-2 border text-center rounded px-2 py-1 ">
+                    +
+                  </button>
+                </div>
               </div>
-            </div>
-            <div className="flex flex-col items-center space-y-2">
-              <p className="font-bold text-xl">${product.price}</p>
-              <IoTrashBinOutline className="w-5 h-5 hover:text-red-400 text-red-600" />
+              <div className="flex  mt-2 items-center space-x-2  space-y-2">
+                <p className="font-bold text-xl">${product.price}</p>
+                <IoTrashBinOutline className="w-5 h-5 hover:text-red-400 text-red-600" />
+              </div>
             </div>
           </div>
         ))}
