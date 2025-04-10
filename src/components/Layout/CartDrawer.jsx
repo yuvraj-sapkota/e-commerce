@@ -20,7 +20,7 @@ const CartDrawer = ({ drawerOpen, setDrawerOpen }) => {
         </div>
 
         <div className=" flex-grow  p-4 overflow-y-auto">
-           <CartContents/>
+          <CartContents />
         </div>
 
         <div className="sticky bottom-0 bg-white  ">
