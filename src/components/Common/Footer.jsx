@@ -121,16 +121,18 @@ const Footer = () => {
             <div>
               <p className="text-gray-500">Call Us</p>
               <p>
-                <IoCallOutline  className="inline-block mr-2"/>
+                <IoCallOutline className="inline-block mr-2" />
                 9862130453
               </p>
             </div>
           </div>
           {/* footer bottom  */}
         </div>
-          <div className="container mx-auto mt-12 px-4 lg:px-0 border-t border-gray-200 pt-6">
-            <p className="text-gray-500 text-sm tracking-tighter text-center">2025, CompileTab. All Rights Reserved.</p>
-          </div>
+        <div className="container mx-auto mt-12 px-4 lg:px-0 border-t border-gray-200 pt-6">
+          <p className="text-gray-500 text-sm tracking-tighter text-center">
+            © 2025, CompileTab. All Rights Reserved.
+          </p>
+        </div>
       </div>
     </>
   );
