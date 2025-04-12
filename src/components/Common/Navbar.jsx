@@ -20,10 +20,10 @@ const Navbar = () => {
         </div>
         <div className="space-x-6 hidden md:flex">
           <Link className="text-gray-700 hover:text-black text-sm font-medium uppercase">
-            Men
+            Mens
           </Link>
           <Link className="text-gray-700 hover:text-black text-sm font-medium uppercase">
-            Women
+            Womens
           </Link>
           <Link className="text-gray-700 hover:text-black text-sm font-medium uppercase">
             Top Wear
