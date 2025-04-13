@@ -19,16 +19,16 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="space-x-6 hidden md:flex">
-          <Link className="text-gray-700 hover:text-black text-sm font-medium uppercase">
+          <Link className="text-gray-700 hover:text-red-500 text-sm font-medium uppercase">
             Mens
           </Link>
-          <Link className="text-gray-700 hover:text-black text-sm font-medium uppercase">
+          <Link className="text-gray-700 hover:text-red-500 text-sm font-medium uppercase">
             Womens
           </Link>
-          <Link className="text-gray-700 hover:text-black text-sm font-medium uppercase">
+          <Link className="text-gray-700 hover:text-red-500 text-sm font-medium uppercase">
             Top Wear
           </Link>
-          <Link className="text-gray-700 hover:text-black text-sm font-medium uppercase">
+          <Link className="text-gray-700 hover:text-red-500 text-sm font-medium uppercase">
             Bottom Wear
           </Link>
         </div>
