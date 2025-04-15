@@ -9,7 +9,7 @@ const Hero = () => {
         <div className="md:h-[600px] lg:h-[750px] h-[400px]   overflow-hidden mx-auto">
           <img
             src={heroImage}
-            alt=""
+            alt="bandar"
             className="h-[100%] w-[100%] overflow-hidden object-cover object-top mx-auto"
           />
         </div>
@@ -20,7 +20,7 @@ const Hero = () => {
               Vacation <br /> Ready
             </h1>
             <p className="text-sm tracking-tighter md:text-lg mb-6 p-6">
-              Explore our vaction-ready outfits with fast world wide shipping{" "}
+              Explore our vaction-ready outfits with fast world wide shipping
             </p>
             <Link
               to="#"
